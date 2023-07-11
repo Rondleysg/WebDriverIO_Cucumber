@@ -1,7 +1,9 @@
+import add_remove_elementsPage from "../../pageobjects/add_remove_elements.page.js"
 import loginPage from "../../pageobjects/login.page.js"
 
 const pages = {
-    login: loginPage
+    login: loginPage,
+    addRemove: add_remove_elementsPage
 }
 
 /**
